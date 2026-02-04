@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+}
+
+form {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 2px solid black;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
